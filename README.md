@@ -1,5 +1,5 @@
-# Tapo-C200-motion-listener
-ONVIF listener for Tapo C200 (and probably more cameras)
+# Tapo-C200-event-listener
+ONVIF event listener for Tapo C200 (and probably more cameras)
 
 
 Ok, here is the deal, I am not native english speaker, so I'll try my best:
