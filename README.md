@@ -20,7 +20,7 @@ pip3 install onvif-zeep (dunno if needed for the second, but this were my steps)
 ```
 pip3 install onvif-zeep-async 
 ```
-(if you want to use my whole script, get opencv2 and pushbullet too)
+(if you want to use my whole script, get opencv and pushbullet too)
 
 Go to the [onvif-zeep-async](https://github.com/hunterjm/python-onvif-zeep-async) repo and download their wsdl folder. It is really important, as the onvif-zeep defs are broken. I also tested with the https://www.onvif.org/profiles/specifications/ and they work too. Run the script once, Python will tell you were to put the files. Run it again, it will tell you another directory. Run it again, it may work now, else copy all the files to that directory too. I know the ONVIFCamera() sets the path at the end, but this never worked for me properly. 
 
