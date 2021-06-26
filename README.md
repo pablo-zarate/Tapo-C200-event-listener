@@ -8,9 +8,15 @@ I made this script to listen for events on the TP-Link Tapo C200. This is not be
 
 I tested this with a Raspberry Pi 4B, latest os. I assume you already know how to setup your camera for pytapo but if it is not the case, check [TP-Link's guide](https://www.tp-link.com/us/support/faq/2680/)
 
+```
 pip3 install pytapo
+```
+```
 pip3 install onvif-zeep (dunno if needed for the second, but this were my steps)
+```
+```
 pip3 install onvif-zeep-async 
+```
 
 Go to the [onvif-zeep-async](https://github.com/hunterjm/python-onvif-zeep-async) repo and download their wsdl folder. It is really important, as the onvif-zeep defs are broken. I also tested with the https://www.onvif.org/profiles/specifications/ and they work too. Please note that, if Python says it can't find some wdsl file, just surrender, make the folder and let it be. 
 
